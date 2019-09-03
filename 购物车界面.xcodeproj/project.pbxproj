@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6AFF78C2318C42900E62611 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AFF78B2318C42900E62611 /* AppDelegate.m */; };
+		B6AFF7942318C42A00E62611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AFF7932318C42A00E62611 /* Assets.xcassets */; };
+		B6AFF7972318C42A00E62611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AFF7952318C42A00E62611 /* LaunchScreen.storyboard */; };
+		B6AFF79A2318C42A00E62611 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AFF7992318C42A00E62611 /* main.m */; };
+		B6AFF7A82318C93C00E62611 /* ShopCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AFF7A72318C93C00E62611 /* ShopCarViewController.m */; };
+		B6AFF7AB2318CDE000E62611 /* ShopCartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AFF7AA2318CDE000E62611 /* ShopCartModel.m */; };
+		B6AFF7AE2318D0AC00E62611 /* ShopCarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AFF7AD2318D0AC00E62611 /* ShopCarHeaderView.m */; };
+		B6AFF7BE2318F0CC00E62611 /* ShopCarFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AFF7BD2318F0CC00E62611 /* ShopCarFooterView.m */; };
+		B6AFF7C12318F78000E62611 /* ShopCartBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AFF7C02318F78000E62611 /* ShopCartBar.m */; };
+		B6AFF7C42319126C00E62611 /* ShopNumberCount.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AFF7C32319126C00E62611 /* ShopNumberCount.m */; };
+		B6AFF7CA23193B1200E62611 /* ShopCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AFF7C923193B1200E62611 /* ShopCartCell.m */; };
+		B6AFF7CD23194A7200E62611 /* ShopCartUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AFF7CC23194A7200E62611 /* ShopCartUIService.m */; };
+		B6AFF7D023194BAF00E62611 /* ShopCartViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AFF7CF23194BAF00E62611 /* ShopCartViewModel.m */; };
+		B6EDE632231E591900117D5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EDE630231E591900117D5D /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11E4D19F25C0B7C25A6C2BC1 /* Pods-购物车界面.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-购物车界面.release.xcconfig"; path = "Target Support Files/Pods-购物车界面/Pods-购物车界面.release.xcconfig"; sourceTree = "<group>"; };
+		6938447C08594FACEFE93059 /* Pods-购物车界面.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-购物车界面.debug.xcconfig"; path = "Target Support Files/Pods-购物车界面/Pods-购物车界面.debug.xcconfig"; sourceTree = "<group>"; };
+		910ABA21D0745459E970AC4D /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AFF7872318C42900E62611 /* 购物车界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "购物车界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AFF78A2318C42900E62611 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6AFF78B2318C42900E62611 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6AFF7932318C42A00E62611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6AFF7962318C42A00E62611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6AFF7982318C42A00E62611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6AFF7992318C42A00E62611 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6AFF7A62318C93C00E62611 /* ShopCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopCarViewController.h; sourceTree = "<group>"; };
+		B6AFF7A72318C93C00E62611 /* ShopCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCarViewController.m; sourceTree = "<group>"; };
+		B6AFF7A92318CDE000E62611 /* ShopCartModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopCartModel.h; sourceTree = "<group>"; };
+		B6AFF7AA2318CDE000E62611 /* ShopCartModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCartModel.m; sourceTree = "<group>"; };
+		B6AFF7AC2318D0AC00E62611 /* ShopCarHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopCarHeaderView.h; sourceTree = "<group>"; };
+		B6AFF7AD2318D0AC00E62611 /* ShopCarHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCarHeaderView.m; sourceTree = "<group>"; };
+		B6AFF7BC2318F0CC00E62611 /* ShopCarFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopCarFooterView.h; sourceTree = "<group>"; };
+		B6AFF7BD2318F0CC00E62611 /* ShopCarFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCarFooterView.m; sourceTree = "<group>"; };
+		B6AFF7BF2318F78000E62611 /* ShopCartBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopCartBar.h; sourceTree = "<group>"; };
+		B6AFF7C02318F78000E62611 /* ShopCartBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCartBar.m; sourceTree = "<group>"; };
+		B6AFF7C22319126C00E62611 /* ShopNumberCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopNumberCount.h; sourceTree = "<group>"; };
+		B6AFF7C32319126C00E62611 /* ShopNumberCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopNumberCount.m; sourceTree = "<group>"; };
+		B6AFF7C823193B1200E62611 /* ShopCartCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopCartCell.h; sourceTree = "<group>"; };
+		B6AFF7C923193B1200E62611 /* ShopCartCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCartCell.m; sourceTree = "<group>"; };
+		B6AFF7CB23194A7200E62611 /* ShopCartUIService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopCartUIService.h; sourceTree = "<group>"; };
+		B6AFF7CC23194A7200E62611 /* ShopCartUIService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCartUIService.m; sourceTree = "<group>"; };
+		B6AFF7CE23194BAF00E62611 /* ShopCartViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopCartViewModel.h; sourceTree = "<group>"; };
+		B6AFF7CF23194BAF00E62611 /* ShopCartViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopCartViewModel.m; sourceTree = "<group>"; };
+		B6EDE631231E591900117D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6AFF7842318C42900E62611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9750FDB032A3CC765BF435FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				910ABA21D0745459E970AC4D /* Pods______.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6AFF77E2318C42900E62611 = {
+			isa = PBXGroup;
+			children = (
+				B6AFF7892318C42900E62611 /* 购物车界面 */,
+				B6AFF7882318C42900E62611 /* Products */,
+				ED5246088BB0F17D7449B949 /* Pods */,
+				9750FDB032A3CC765BF435FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6AFF7882318C42900E62611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFF7872318C42900E62611 /* 购物车界面.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AFF7892318C42900E62611 /* 购物车界面 */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFF78A2318C42900E62611 /* AppDelegate.h */,
+				B6AFF78B2318C42900E62611 /* AppDelegate.m */,
+				B6AFF7A02318C87F00E62611 /* ShopCat */,
+				B6AFF7932318C42A00E62611 /* Assets.xcassets */,
+				B6AFF7952318C42A00E62611 /* LaunchScreen.storyboard */,
+				B6EDE630231E591900117D5D /* Main.storyboard */,
+				B6AFF7982318C42A00E62611 /* Info.plist */,
+				B6AFF7992318C42A00E62611 /* main.m */,
+			);
+			path = "购物车界面";
+			sourceTree = "<group>";
+		};
+		B6AFF7A02318C87F00E62611 /* ShopCat */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFF7A52318C8D500E62611 /* ViewController */,
+				B6AFF7A42318C8CC00E62611 /* ViewModel */,
+				B6AFF7A32318C8BA00E62611 /* View */,
+				B6AFF7A12318C8A400E62611 /* Model */,
+			);
+			path = ShopCat;
+			sourceTree = "<group>";
+		};
+		B6AFF7A12318C8A400E62611 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFF7A92318CDE000E62611 /* ShopCartModel.h */,
+				B6AFF7AA2318CDE000E62611 /* ShopCartModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6AFF7A32318C8BA00E62611 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFF7AC2318D0AC00E62611 /* ShopCarHeaderView.h */,
+				B6AFF7AD2318D0AC00E62611 /* ShopCarHeaderView.m */,
+				B6AFF7BC2318F0CC00E62611 /* ShopCarFooterView.h */,
+				B6AFF7BD2318F0CC00E62611 /* ShopCarFooterView.m */,
+				B6AFF7BF2318F78000E62611 /* ShopCartBar.h */,
+				B6AFF7C02318F78000E62611 /* ShopCartBar.m */,
+				B6AFF7C22319126C00E62611 /* ShopNumberCount.h */,
+				B6AFF7C32319126C00E62611 /* ShopNumberCount.m */,
+				B6AFF7C823193B1200E62611 /* ShopCartCell.h */,
+				B6AFF7C923193B1200E62611 /* ShopCartCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6AFF7A42318C8CC00E62611 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFF7CB23194A7200E62611 /* ShopCartUIService.h */,
+				B6AFF7CC23194A7200E62611 /* ShopCartUIService.m */,
+				B6AFF7CE23194BAF00E62611 /* ShopCartViewModel.h */,
+				B6AFF7CF23194BAF00E62611 /* ShopCartViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B6AFF7A52318C8D500E62611 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFF7A62318C93C00E62611 /* ShopCarViewController.h */,
+				B6AFF7A72318C93C00E62611 /* ShopCarViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ED5246088BB0F17D7449B949 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6938447C08594FACEFE93059 /* Pods-购物车界面.debug.xcconfig */,
+				11E4D19F25C0B7C25A6C2BC1 /* Pods-购物车界面.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6AFF7862318C42900E62611 /* 购物车界面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AFF79D2318C42A00E62611 /* Build configuration list for PBXNativeTarget "购物车界面" */;
+			buildPhases = (
+				FE3BBE2306F259F249DEC6E2 /* [CP] Check Pods Manifest.lock */,
+				B6AFF7832318C42900E62611 /* Sources */,
+				B6AFF7842318C42900E62611 /* Frameworks */,
+				B6AFF7852318C42900E62611 /* Resources */,
+				743F789DD2E69A480B1A7D39 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "购物车界面";
+			productName = "购物车界面";
+			productReference = B6AFF7872318C42900E62611 /* 购物车界面.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6AFF77F2318C42900E62611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "许明洋";
+				TargetAttributes = {
+					B6AFF7862318C42900E62611 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = B6AFF7822318C42900E62611 /* Build configuration list for PBXProject "购物车界面" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6AFF77E2318C42900E62611;
+			productRefGroup = B6AFF7882318C42900E62611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6AFF7862318C42900E62611 /* 购物车界面 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6AFF7852318C42900E62611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EDE632231E591900117D5D /* Main.storyboard in Resources */,
+				B6AFF7972318C42A00E62611 /* LaunchScreen.storyboard in Resources */,
+				B6AFF7942318C42A00E62611 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		743F789DD2E69A480B1A7D39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-购物车界面/Pods-购物车界面-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-购物车界面/Pods-购物车界面-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-购物车界面/Pods-购物车界面-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE3BBE2306F259F249DEC6E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-购物车界面-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6AFF7832318C42900E62611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AFF7C42319126C00E62611 /* ShopNumberCount.m in Sources */,
+				B6AFF7A82318C93C00E62611 /* ShopCarViewController.m in Sources */,
+				B6AFF79A2318C42A00E62611 /* main.m in Sources */,
+				B6AFF7AE2318D0AC00E62611 /* ShopCarHeaderView.m in Sources */,
+				B6AFF78C2318C42900E62611 /* AppDelegate.m in Sources */,
+				B6AFF7CA23193B1200E62611 /* ShopCartCell.m in Sources */,
+				B6AFF7BE2318F0CC00E62611 /* ShopCarFooterView.m in Sources */,
+				B6AFF7CD23194A7200E62611 /* ShopCartUIService.m in Sources */,
+				B6AFF7C12318F78000E62611 /* ShopCartBar.m in Sources */,
+				B6AFF7D023194BAF00E62611 /* ShopCartViewModel.m in Sources */,
+				B6AFF7AB2318CDE000E62611 /* ShopCartModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6AFF7952318C42A00E62611 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AFF7962318C42A00E62611 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B6EDE630231E591900117D5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6EDE631231E591900117D5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6AFF79B2318C42A00E62611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6AFF79C2318C42A00E62611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6AFF79E2318C42A00E62611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6938447C08594FACEFE93059 /* Pods-购物车界面.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "购物车界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greatyun.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6AFF79F2318C42A00E62611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E4D19F25C0B7C25A6C2BC1 /* Pods-购物车界面.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "购物车界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greatyun.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6AFF7822318C42900E62611 /* Build configuration list for PBXProject "购物车界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AFF79B2318C42A00E62611 /* Debug */,
+				B6AFF79C2318C42A00E62611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AFF79D2318C42A00E62611 /* Build configuration list for PBXNativeTarget "购物车界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AFF79E2318C42A00E62611 /* Debug */,
+				B6AFF79F2318C42A00E62611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6AFF77F2318C42900E62611 /* Project object */;
+}

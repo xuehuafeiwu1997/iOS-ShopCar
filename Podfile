@@ -9,4 +9,5 @@ use_frameworks!
 target '购物车界面' do
     pod 'ReactiveObjC'
     pod 'Masonry', '~> 1.1.0' 
+    pod 'SDWebImage', '~> 4.4.2'
 end

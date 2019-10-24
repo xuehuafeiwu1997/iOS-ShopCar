@@ -70,6 +70,11 @@
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     ShopCartCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ShopCartCell"];
+    ShopCartModel *model = self.viewModel.cartData[indexPath.section][indexPath.row];
+    NSLog(@"%@",self.viewModel.cartData[indexPath.section][indexPath.row]);
+    if ([cell respondsToSelector:@selector(renderWithModel:)]) {
+        [cell renderWithModel:model];
+    }
     [self configureCell:cell forRowAtIndexPath:indexPath];
     return cell;
 }

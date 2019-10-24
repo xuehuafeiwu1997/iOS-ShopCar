@@ -19,6 +19,7 @@
 @implementation ShopCarFooterView
 
 - (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier {
+    //初始化父类构造方法
     self = [super initWithReuseIdentifier:reuseIdentifier];
     if (self) {
         [self initCartFooterView];

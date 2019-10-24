@@ -80,6 +80,7 @@ static NSInteger const SelectButtonTag = 122;
     UIButton *button1 = [UIButton buttonWithType:UIButtonTypeCustom];
     [button1 setBackgroundImage:[UIImage imageWithColor:[UIColor redColor]] forState:UIControlStateNormal];
     [button1 setBackgroundImage:[UIImage imageWithColor:[UIColor lightGrayColor]] forState:UIControlStateDisabled];
+    [button1 setTitle:@"删除" forState:UIControlStateNormal];
     [button1 setFrame:CGRectMake([[UIScreen mainScreen]bounds].size.width - wd, 0, wd, self.frame.size.height)];
     button1.enabled = NO;
     button1.hidden = YES;

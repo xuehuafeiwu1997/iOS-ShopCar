@@ -200,8 +200,10 @@
     
     /*1 删除数据*/
     NSInteger index1 = -1;
+    //选中的商店数量
     NSMutableIndexSet *shopSelectIndex = [NSMutableIndexSet indexSet];
     
+    //cartData代表所有的数据，是一个二维数组，self.cartData[indexPath.section][indexPath.row]
     for (NSMutableArray *shopArray in self.cartData) {
         index1++;
         NSInteger index2 = -1;
@@ -214,8 +216,9 @@
         }
         NSInteger shopCount = shopArray.count;
         NSInteger selectCount = selectIndexSet.count;
+        //当一个店铺下所有的商品都被选中时
         if (selectCount == shopCount) {
-            [shopSelectIndex addIndex:index2];
+            [shopSelectIndex addIndex:index1];
             self.cartGoodsCount -= selectCount;
         }
         [shopArray removeObjectsAtIndexes:selectIndexSet];

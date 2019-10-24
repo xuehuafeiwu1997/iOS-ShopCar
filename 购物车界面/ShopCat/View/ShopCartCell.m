@@ -8,6 +8,7 @@
 
 #import "ShopCartCell.h"
 #import <Masonry/Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface ShopCartCell()
 
@@ -67,10 +68,11 @@
     //商品图片的设置
     UIImageView *imageView = [[UIImageView alloc] init];
     //imageView.frame = CGRectMake(37, 8, 84, 84);
-    imageView.backgroundColor = [UIColor grayColor];
+    imageView.backgroundColor = [UIColor whiteColor];
+    imageView.contentMode = UIViewContentModeScaleAspectFill;
     [self.contentView addSubview:imageView];
     [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(button1.mas_right);
+        make.left.equalTo(button1.mas_right).offset(50);
         make.top.equalTo(button1.mas_top);
         make.bottom.equalTo(button1.mas_bottom);
         make.width.equalTo(@84);
@@ -135,6 +137,15 @@
 
 + (CGFloat)getCartCellHeight {
     return 100;
+}
+
+//模型渲染
+- (void)renderWithModel:(ShopCartModel *)model {
+//    if ([model isKindOfClass:[ShopCartModel class]]) {
+//        ShopCartModel *CartModel = model;
+//        [self.imageView sd_setImageWithURL:[NSURL URLWithString:CartModel.p_imageUrl]];
+//    }
+    [self.imageView sd_setImageWithURL:[NSURL URLWithString:model.p_imageUrl]?:nil];
 }
 
 

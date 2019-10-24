@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-购物车界面/Pods-购物车界面-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
 ${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
